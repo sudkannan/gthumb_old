@@ -623,7 +623,9 @@ loader_done (ImageLoader *il,
 			break;
 
 		case GTH_OVERWRITE_OVERWRITE:
-			save_image = TRUE;
+			 fprintf(stdout,"starting simulation OVERWRITE\n");
+		     gettimeofday(&startw, NULL);
+			 save_image = TRUE;
 			break;
 
 		case GTH_OVERWRITE_ASK:
@@ -700,9 +702,6 @@ gth_batch_op_start (GthBatchOp       *bop,
 		    gboolean          remove_original,
 		    GtkWindow        *window)
 {
-
-	fprintf(stdout,"starting simulation\n");
-	gettimeofday(&startw, NULL);
 
 
 	GtkWidget *progress_cancel;
