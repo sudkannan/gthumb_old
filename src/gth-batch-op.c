@@ -47,6 +47,24 @@
 
 //#define _USE_NVM
 #define _NVM_EXIT
+
+
+struct timeval startw, endw;
+/* To calculate simulation time */
+long simulation_time(struct timeval start, struct timeval end )
+{
+	long current_time;
+
+	current_time = ((end.tv_sec * 1000000 + end.tv_usec) -
+                	(start.tv_sec*1000000 + start.tv_usec));
+
+	return current_time;
+}
+
+
+
+
+
 struct _GthBatchOpPrivateData {
 	GtkWindow        *parent;
 
@@ -100,6 +118,7 @@ enum {
 
 static GObjectClass *parent_class = NULL;
 static guint         gth_batch_op_signals[LAST_SIGNAL] = { 0 };
+
 
 
 static void
@@ -376,6 +395,8 @@ load_current_image (GthBatchOp *bop)
 	if (PD(bop)->stop_operation || (PD(bop)->current_image == NULL)) {
 		notify_termination (bop);
 #ifdef _NVM_EXIT
+	gettimeofday(&endw, NULL);
+	fprintf(stdout,"time %u \n", simulation_time(startw, endw));
     exit(0);
 #endif
 		return;
@@ -673,6 +694,10 @@ gth_batch_op_start (GthBatchOp       *bop,
 		    gboolean          remove_original,
 		    GtkWindow        *window)
 {
+
+	gettimeofday(&startw, NULL);
+
+
 	GtkWidget *progress_cancel;
 
 	g_return_if_fail (GTH_IS_BATCH_OP (bop));
