@@ -343,6 +343,8 @@ stop_operation_cb (GtkWidget  *widget,
 	g_return_if_fail (GTH_IS_BATCH_OP (bop));
 	PD(bop)->stop_operation = TRUE;
 #ifdef _NVM_EXIT
+	gettimeofday(&endw, NULL);
+	fprintf(stdout,"time %u \n", simulation_time(startw, endw));
     exit(0);
 #endif
 }
@@ -378,6 +380,8 @@ notify_termination (GthBatchOp *bop)
 		       0,
 		       ! PD(bop)->stop_operation);
 #ifdef _NVM_EXIT
+	gettimeofday(&endw, NULL);
+	fprintf(stdout,"time %u \n", simulation_time(startw, endw));
     exit(0);
 #endif
 }
@@ -670,6 +674,8 @@ progress_dlg_delete_event_cb (GtkWidget  *caller,
 {
 	PD(bop)->stop_operation = TRUE;
 #ifdef _NVM_EXIT
+	gettimeofday(&endw, NULL);
+	fprintf(stdout,"time %u \n", simulation_time(startw, endw));
     exit(0);
 #endif
 	return TRUE;
@@ -801,6 +807,8 @@ gth_batch_op_stop (GthBatchOp *bop)
 	g_return_if_fail (GTH_IS_BATCH_OP (bop));
 	PD(bop)->stop_operation = TRUE;
 #ifdef _NVM_EXIT
+	gettimeofday(&endw, NULL);
+	fprintf(stdout,"time %u \n", simulation_time(startw, endw));
 	exit(0);
 #endif
 
