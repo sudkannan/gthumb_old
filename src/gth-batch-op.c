@@ -50,6 +50,7 @@
 
 
 struct timeval startw, endw;
+int firstime=0;
 /* To calculate simulation time */
 long simulation_time(struct timeval start, struct timeval end )
 {
@@ -623,8 +624,11 @@ loader_done (ImageLoader *il,
 			break;
 
 		case GTH_OVERWRITE_OVERWRITE:
-			 fprintf(stdout,"starting simulation OVERWRITE\n");
-		     gettimeofday(&startw, NULL);
+			if(!firstime) {
+				fprintf(stdout,"starting simulation OVERWRITE\n");
+			    gettimeofday(&startw, NULL);
+				firstime=1;
+			}
 			 save_image = TRUE;
 			break;
 
