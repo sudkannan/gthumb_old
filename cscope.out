@@ -1,4 +1,4 @@
-cscope 15 $HOME/codes/apps/gthumb-2.10.11_svn               0003640144
+cscope 15 $HOME/codes/apps/gthumb_old               0003641242
 	@config.h
 
 8 
@@ -325070,177 +325070,237 @@ b
 
 	)
 
-48 
+48 
+	#_USE_NVM
+
+
+	)
+
+49 
+	#_NVM_EXIT
+
+
+	)
+
+52 
+timevÆ
+ 
+	g°¨tw
+, 
+	gídw
+;
+
+54 
+	$simuœti⁄_time
+(
+timevÆ
+ 
+°¨t
+, timevÆ 
+íd
+ )
+
+56 
+cuºít_time
+;
+
+58 
+cuºít_time
+ = ((
+íd
+.
+tv_£c
+ * 1000000 +Énd.
+tv_u£c
+) -
+
+59 (
+°¨t
+.
+tv_£c
+*1000000 + sèπ.
+tv_u£c
+));
+
+61  
+cuºít_time
+;
+
+62 
+	}
+}
+
+68 
 	s_GthB©chOpPriv©eD©a
  {
 
-49 
+69 
 GtkWödow
  *
 	m∑ª¡
 ;
 
-53 c⁄° *
+73 c⁄° *
 	mimage_ty≥
 ;
 
-54 
+74 
 GthPixbufOp
  *
 	mpixbuf_›
 ;
 
-55 
+75 
 gpoöãr
  
 	mexåa_d©a
 ;
 
-56 
+76 
 gboﬁón
  
 	mªmove_‹igöÆ
 ;
 
-57 
+77 
 GthOvîwrôeMode
  
 	movîwrôe_mode
 ;
 
-61 
+81 
 	mimages
 ;
 
-62 
+82 
 	mimage
 ;
 
-63 
+83 
 gboﬁón
  
 	m°›_›î©i⁄
 ;
 
-65 
+85 
 GLi°
  *
 	mfûe_li°
 ;
 
-66 
+86 
 GLi°
  *
 	mcuºít_image
 ;
 
-67 
+87 
 GLi°
  *
 	mßved_li°
 ;
 
-68 
+88 
 GLi°
  *
 	mdñëed_li°
 ;
 
-70 
+90 
 GdkPixbuf
  *
 	mpixbuf
 ;
 
-71 
+91 
 ImageLﬂdî
  *
 	mlﬂdî
 ;
 
-72 *
+92 *
 	mde°ö©i⁄
 ;
 
-73 *
+93 *
 	m√w_∑th
 ;
 
-74 **
+94 **
 	mkeys
 ;
 
-75 **
+95 **
 	mvÆues
 ;
 
-79 
+99 
 GœdeXML
  *
 	m¥ogªss_gui
 ;
 
-80 
+100 
 GtkWidgë
  *
 	m¥ogªss_dlg
 ;
 
-81 
+101 
 GtkWidgë
  *
 	m¥ogªss_œbñ
 ;
 
-82 
+102 
 GtkWidgë
  *
 	movîÆl_¥ogªssb¨
 ;
 
-83 
+103 
 GtkWidgë
  *
 	mimage_¥ogªssb¨
 ;
 
-85 
+105 
 GœdeXML
  *
 	mgui
 ;
 
-86 
+106 
 GtkWidgë
  *
 	mª«me_dülog
 ;
 
-87 
+107 
 GtkWidgë
  *
 	mc⁄v_ªn_mesßge_œbñ
 ;
 
-88 
+108 
 GtkWidgë
  *
 	mc⁄v_ªn_«me_íåy
 ;
 
-93 
+113 
 	mBOP_PROGRESS
 ,
 
-94 
+114 
 	mBOP_DONE
 ,
 
-95 
+115 
 	mLAST_SIGNAL
 
 
-99 
+119 
 GObje˘Cœss
  *
 	g∑ª¡_˛ass
@@ -325248,7 +325308,7 @@ GObje˘Cœss
 NULL
 ;
 
-100 
+120 
 guöt
  
 	ggth_b©ch_›_sig«ls
@@ -325256,7 +325316,7 @@ guöt
 LAST_SIGNAL
 ] = { 0 };
 
-104 
+125 
 	$‰ì_¥ogªss_d©a
  (
 GthB©chOp
@@ -325264,7 +325324,7 @@ GthB©chOp
 b›
 )
 
-106 
+127 
 	`g_ªtu∫_if_Áû
  (
 b›
@@ -325272,7 +325332,7 @@ b›
 NULL
 );
 
-108 i‡(
+129 i‡(
 	`PD
 (
 b›
@@ -325280,7 +325340,7 @@ b›
 NULL
 )
 
-111 i‡(
+132 i‡(
 	`PD
 (
 b›
@@ -325289,138 +325349,138 @@ lﬂdî
  !
 NULL
 ) {
-
-112 
-	`g_obje˘_uƒef
- (
-	`PD
-(
-b›
-)->
-lﬂdî
-);
-
-113 
-	`PD
-(
-b›
-)->
-lﬂdî
- = 
-NULL
-;
-
-116 i‡(
-	`PD
-(
-b›
-)->
-¥ogªss_dlg
- !
-NULL
-) {
-
-117 
-	`gtk_widgë_de°roy
- (
-	`PD
-(
-b›
-)->
-¥ogªss_dlg
-);
-
-118 
-	`PD
-(
-b›
-)->
-¥ogªss_dlg
- = 
-NULL
-;
-
-121 i‡(
-	`PD
-(
-b›
-)->
-ª«me_dülog
- !
-NULL
-) {
-
-122 
-	`gtk_widgë_de°roy
- (
-	`PD
-(
-b›
-)->
-ª«me_dülog
-);
-
-123 
-	`PD
-(
-b›
-)->
-ª«me_dülog
- = 
-NULL
-;
-
-126 i‡(
-	`PD
-(
-b›
-)->
-gui
- !
-NULL
-) {
-
-127 
-	`g_obje˘_uƒef
- (
-	`PD
-(
-b›
-)->
-gui
-);
-
-128 
-	`PD
-(
-b›
-)->
-gui
- = 
-NULL
-;
-
-131 i‡(
-	`PD
-(
-b›
-)->
-¥ogªss_gui
- !
-NULL
-) {
-
-132 
-	`g_obje˘_uƒef
- (
-	`PD
-(
-b›
-)->
-¥ogªss_gui
-);
 
 133 
+	`g_obje˘_uƒef
+ (
+	`PD
+(
+b›
+)->
+lﬂdî
+);
+
+134 
+	`PD
+(
+b›
+)->
+lﬂdî
+ = 
+NULL
+;
+
+137 i‡(
+	`PD
+(
+b›
+)->
+¥ogªss_dlg
+ !
+NULL
+) {
+
+138 
+	`gtk_widgë_de°roy
+ (
+	`PD
+(
+b›
+)->
+¥ogªss_dlg
+);
+
+139 
+	`PD
+(
+b›
+)->
+¥ogªss_dlg
+ = 
+NULL
+;
+
+142 i‡(
+	`PD
+(
+b›
+)->
+ª«me_dülog
+ !
+NULL
+) {
+
+143 
+	`gtk_widgë_de°roy
+ (
+	`PD
+(
+b›
+)->
+ª«me_dülog
+);
+
+144 
+	`PD
+(
+b›
+)->
+ª«me_dülog
+ = 
+NULL
+;
+
+147 i‡(
+	`PD
+(
+b›
+)->
+gui
+ !
+NULL
+) {
+
+148 
+	`g_obje˘_uƒef
+ (
+	`PD
+(
+b›
+)->
+gui
+);
+
+149 
+	`PD
+(
+b›
+)->
+gui
+ = 
+NULL
+;
+
+152 i‡(
+	`PD
+(
+b›
+)->
+¥ogªss_gui
+ !
+NULL
+) {
+
+153 
+	`g_obje˘_uƒef
+ (
+	`PD
+(
+b›
+)->
+¥ogªss_gui
+);
+
+154 
 	`PD
 (
 b›
@@ -325430,7 +325490,7 @@ b›
 NULL
 ;
 
-136 
+157 
 	`∑th_li°_‰ì
  (
 	`PD
@@ -325440,7 +325500,7 @@ b›
 ßved_li°
 );
 
-137 
+158 
 	`PD
 (
 b›
@@ -325450,7 +325510,7 @@ b›
 NULL
 ;
 
-139 
+160 
 	`∑th_li°_‰ì
  (
 	`PD
@@ -325460,7 +325520,7 @@ b›
 dñëed_li°
 );
 
-140 
+161 
 	`PD
 (
 b›
@@ -325470,7 +325530,7 @@ dñëed_li°
 NULL
 ;
 
-142 
+163 
 	`fûe_d©a_li°_‰ì
  (
 	`PD
@@ -325480,7 +325540,7 @@ b›
 fûe_li°
 );
 
-143 
+164 
 	`PD
 (
 b›
@@ -325490,7 +325550,7 @@ fûe_li°
 NULL
 ;
 
-145 
+166 
 	`PD
 (
 b›
@@ -325500,7 +325560,7 @@ cuºít_image
 NULL
 ;
 
-146 
+167 
 	`PD
 (
 b›
@@ -325508,7 +325568,7 @@ b›
 images
  = 0;
 
-147 
+168 
 	`PD
 (
 b›
@@ -325516,7 +325576,7 @@ b›
 image
  = -1;
 
-149 
+170 
 	`g_‰ì
  (
 	`PD
@@ -325526,7 +325586,7 @@ b›
 de°ö©i⁄
 );
 
-150 
+171 
 	`PD
 (
 b›
@@ -325536,7 +325596,7 @@ de°ö©i⁄
 NULL
 ;
 
-152 
+173 
 	`g_‰ì
  (
 	`PD
@@ -325546,7 +325606,7 @@ b›
 √w_∑th
 );
 
-153 
+174 
 	`PD
 (
 b›
@@ -325556,7 +325616,7 @@ b›
 NULL
 ;
 
-155 i‡(
+176 i‡(
 	`PD
 (
 b›
@@ -325566,7 +325626,7 @@ keys
 NULL
 ) {
 
-156 
+177 
 	`g_°r‰ìv
  (
 	`PD
@@ -325576,7 +325636,7 @@ b›
 keys
 );
 
-157 
+178 
 	`PD
 (
 b›
@@ -325586,7 +325646,7 @@ keys
 NULL
 ;
 
-160 i‡(
+181 i‡(
 	`PD
 (
 b›
@@ -325596,7 +325656,7 @@ vÆues
 NULL
 ) {
 
-161 
+182 
 	`g_°r‰ìv
  (
 	`PD
@@ -325606,7 +325666,7 @@ b›
 vÆues
 );
 
-162 
+183 
 	`PD
 (
 b›
@@ -325616,11 +325676,11 @@ vÆues
 NULL
 ;
 
-164 
+185 
 	}
 }
 
-168 
+189 
 	$gth_b©ch_›_föÆize
  (
 GObje˘
@@ -325628,13 +325688,13 @@ GObje˘
 obje˘
 )
 
-170 
+191 
 GthB©chOp
  *
 b›
 ;
 
-172 
+193 
 	`g_ªtu∫_if_Áû
  (
 	`GTH_IS_BATCH_OP
@@ -325642,7 +325702,7 @@ b›
 obje˘
 ));
 
-174 
+195 
 b›
  = (
 GthB©chOp
@@ -325650,7 +325710,7 @@ GthB©chOp
 obje˘
 ;
 
-175 i‡(
+196 i‡(
 	`PD
 (
 b›
@@ -325658,13 +325718,13 @@ b›
 NULL
 ) {
 
-176 
+197 
 	`‰ì_¥ogªss_d©a
  (
 b›
 );
 
-178 i‡(
+199 i‡(
 	`PD
 (
 b›
@@ -325674,7 +325734,7 @@ pixbuf_›
 NULL
 ) {
 
-179 
+200 
 	`g_obje˘_uƒef
  (
 	`PD
@@ -325684,7 +325744,7 @@ b›
 pixbuf_›
 );
 
-180 
+201 
 	`PD
 (
 b›
@@ -325694,7 +325754,7 @@ pixbuf_›
 NULL
 ;
 
-183 
+204 
 	`g_‰ì
  (
 	`PD
@@ -325702,7 +325762,7 @@ NULL
 b›
 ));
 
-184 
+205 
 	`PD
 (
 b›
@@ -325710,7 +325770,7 @@ b›
 NULL
 ;
 
-187 
+208 
 	`G_OBJECT_CLASS
  (
 ∑ª¡_˛ass
@@ -325720,11 +325780,11 @@ NULL
 obje˘
 );
 
-188 
+209 
 	}
 }
 
-192 
+213 
 	$gth_b©ch_›_˛ass_öô
  (
 GthB©chOpCœss
@@ -325732,13 +325792,13 @@ GthB©chOpCœss
 ˛ass
 )
 
-194 
+215 
 GObje˘Cœss
  *
 obje˘_˛ass
 ;
 
-196 
+217 
 ∑ª¡_˛ass
  = 
 	`g_ty≥_˛ass_≥ek_∑ª¡
@@ -325746,27 +325806,27 @@ obje˘_˛ass
 ˛ass
 );
 
-198 
+219 
 gth_b©ch_›_sig«ls
 [
 BOP_PROGRESS
 ] =
 
-199 
+220 
 	`g_sig«l_√w
  ("batch_op_progress",
 
-200 
+221 
 	`G_TYPE_FROM_CLASS
  (
 ˛ass
 ),
 
-201 
+222 
 G_SIGNAL_RUN_LAST
 ,
 
-202 
+223 
 	`G_STRUCT_OFFSET
  (
 GthB©chOpCœss
@@ -325774,43 +325834,43 @@ GthB©chOpCœss
 b©ch_›_¥ogªss
 ),
 
-203 
+224 
 NULL
 , NULL,
 
-204 
+225 
 gthumb_m¨shÆ_VOID__FLOAT
 ,
 
-205 
+226 
 G_TYPE_NONE
 ,
 
-207 
+228 
 G_TYPE_FLOAT
 );
 
-208 
+229 
 gth_b©ch_›_sig«ls
 [
 BOP_DONE
 ] =
 
-209 
+230 
 	`g_sig«l_√w
  ("batch_op_done",
 
-210 
+231 
 	`G_TYPE_FROM_CLASS
  (
 ˛ass
 ),
 
-211 
+232 
 G_SIGNAL_RUN_LAST
 ,
 
-212 
+233 
 	`G_STRUCT_OFFSET
  (
 GthB©chOpCœss
@@ -325818,23 +325878,23 @@ GthB©chOpCœss
 b©ch_›_d⁄e
 ),
 
-213 
+234 
 NULL
 , NULL,
 
-214 
+235 
 gthumb_m¨shÆ_VOID__BOOLEAN
 ,
 
-215 
+236 
 G_TYPE_NONE
 ,
 
-217 
+238 
 G_TYPE_BOOLEAN
 );
 
-219 
+240 
 obje˘_˛ass
  = 
 	`G_OBJECT_CLASS
@@ -325842,7 +325902,7 @@ obje˘_˛ass
 ˛ass
 );
 
-220 
+241 
 obje˘_˛ass
 ->
 föÆize
@@ -325850,11 +325910,11 @@ föÆize
 gth_b©ch_›_föÆize
 ;
 
-221 
+242 
 	}
 }
 
-225 
+246 
 	$gth_b©ch_›_öô
  (
 GthB©chOp
@@ -325862,7 +325922,7 @@ GthB©chOp
 b›
 )
 
-227 
+248 
 	`PD
 (
 b›
@@ -325872,71 +325932,71 @@ b›
 GthB©chOpPriv©eD©a
 , 1);
 
-228 
+249 
 	}
 }
 
-231 
+252 
 GTy≥
 
 
-232 
+253 
 	$gth_b©ch_›_gë_ty≥
  ()
 
-234 
+255 
 GTy≥
  
 ty≥
  = 0;
 
-236 i‡(! 
+257 i‡(! 
 ty≥
 ) {
 
-237 
+258 
 GTy≥Info
  
 ty≥_öfo
  = {
 
-238  (
+259  (
 GthB©chOpCœss
 ),
 
-239 
+260 
 NULL
 ,
 
-240 
+261 
 NULL
 ,
 
-241 (
+262 (
 GCœssInôFunc
 Ë
 gth_b©ch_›_˛ass_öô
 ,
 
-242 
+263 
 NULL
 ,
 
-243 
+264 
 NULL
 ,
 
-244  (
+265  (
 GthB©chOp
 ),
 
-246 (
+267 (
 GIn°™˚InôFunc
 Ë
 gth_b©ch_›_öô
 
 
-249 
+270 
 ty≥
  = 
 	`g_ty≥_ªgi°î_°©ic
@@ -325944,23 +326004,23 @@ ty≥
 G_TYPE_OBJECT
 ,
 
-251 &
+272 &
 ty≥_öfo
 ,
 
-255  
+276  
 ty≥
 ;
 
-256 
+277 
 	}
 }
 
-259 
+280 
 GthB©chOp
  *
 
-260 
+281 
 	$gth_b©ch_›_√w
  (
 GthPixbufOp
@@ -325968,19 +326028,19 @@ GthPixbufOp
 pixbuf_›
 ,
 
-261 
+282 
 gpoöãr
  
 exåa_d©a
 )
 
-263 
+284 
 GthB©chOp
  *
 b›
 ;
 
-265 
+286 
 	`g_ªtu∫_vÆ_if_Áû
  (
 pixbuf_›
@@ -325988,7 +326048,7 @@ pixbuf_›
 NULL
 , NULL);
 
-267 
+288 
 b›
  = 
 	`GTH_BATCH_OP
@@ -326000,7 +326060,7 @@ GTH_TYPE_BATCH_OP
 NULL
 ));
 
-268 
+289 
 	`gth_b©ch_›_£t_›
  (
 b›
@@ -326010,15 +326070,15 @@ pixbuf_›
 exåa_d©a
 );
 
-270  
+291  
 b›
 ;
 
-271 
+292 
 	}
 }
 
-274 
+295 
 pixbuf_›_d⁄e_cb
  (
 GthPixbufOp
@@ -326026,19 +326086,19 @@ GthPixbufOp
 pix›
 ,
 
-275 
+296 
 gboﬁón
  
 com∂ëed
 ,
 
-276 
+297 
 GthB©chOp
  *
 b›
 );
 
-280 
+301 
 	$pixbuf_›_¥ogªss_cb
  (
 GthPixbufOp
@@ -326046,17 +326106,17 @@ GthPixbufOp
 pix›
 ,
 
-281 
+302 
 p
 ,
 
-282 
+303 
 GthB©chOp
  *
 b›
 )
 
-284 i‡(
+305 i‡(
 	`PD
 (
 b›
@@ -326066,7 +326126,7 @@ b›
 NULL
 )
 
-285 
+306 
 	`gtk_¥ogªss_b¨_£t_‰a˘i⁄
  (
 	`GTK_PROGRESS_BAR
@@ -326080,11 +326140,11 @@ image_¥ogªssb¨
 p
 );
 
-286 
+307 
 	}
 }
 
-290 
+311 
 	$gth_b©ch_›_£t_›
  (
 GthB©chOp
@@ -326092,19 +326152,19 @@ GthB©chOp
 b›
 ,
 
-291 
+312 
 GthPixbufOp
  *
 pixbuf_›
 ,
 
-292 
+313 
 gpoöãr
  
 exåa_d©a
 )
 
-294 
+315 
 	`g_ªtu∫_if_Áû
  (
 	`GTH_IS_BATCH_OP
@@ -326112,7 +326172,7 @@ exåa_d©a
 b›
 ));
 
-295 
+316 
 	`g_ªtu∫_if_Áû
  (
 pixbuf_›
@@ -326120,7 +326180,7 @@ pixbuf_›
 NULL
 );
 
-297 i‡(
+318 i‡(
 	`PD
 (
 b›
@@ -326130,7 +326190,7 @@ pixbuf_›
 NULL
 ) {
 
-298 
+319 
 	`g_sig«l_h™dÀrs_disc⁄√˘_by_d©a
  (
 	`PD
@@ -326140,7 +326200,7 @@ b›
 pixbuf_›
 , bop);
 
-299 
+320 
 	`g_obje˘_uƒef
  (
 	`PD
@@ -326150,7 +326210,7 @@ b›
 pixbuf_›
 );
 
-300 
+321 
 	`PD
 (
 b›
@@ -326160,13 +326220,13 @@ pixbuf_›
 NULL
 ;
 
-303 
+324 
 	`g_obje˘_ªf
  (
 pixbuf_›
 );
 
-304 
+325 
 	`PD
 (
 b›
@@ -326174,7 +326234,7 @@ b›
 pixbuf_›
  =Öixbuf_op;
 
-305 
+326 
 	`PD
 (
 b›
@@ -326182,7 +326242,7 @@ b›
 exåa_d©a
  =Éxtra_data;
 
-307 
+328 
 	`g_sig«l_c⁄√˘
  (
 	`G_OBJECT
@@ -326190,17 +326250,17 @@ exåa_d©a
 pixbuf_›
 ),
 
-309 
+330 
 	`G_CALLBACK
  (
 pixbuf_›_d⁄e_cb
 ),
 
-310 
+331 
 b›
 );
 
-311 
+332 
 	`g_sig«l_c⁄√˘
  (
 	`G_OBJECT
@@ -326208,21 +326268,21 @@ b›
 pixbuf_›
 ),
 
-313 
+334 
 	`G_CALLBACK
  (
 pixbuf_›_¥ogªss_cb
 ),
 
-314 
+335 
 b›
 );
 
-315 
+336 
 	}
 }
 
-319 
+340 
 	$°›_›î©i⁄_cb
  (
 GtkWidgë
@@ -326230,13 +326290,13 @@ GtkWidgë
 widgë
 ,
 
-320 
+341 
 GthB©chOp
  *
 b›
 )
 
-322 
+343 
 	`g_ªtu∫_if_Áû
  (
 	`GTH_IS_BATCH_OP
@@ -326244,7 +326304,7 @@ b›
 b›
 ));
 
-323 
+344 
 	`PD
 (
 b›
@@ -326254,11 +326314,39 @@ b›
 TRUE
 ;
 
-324 
+345 #ifde‡
+_NVM_EXIT
+
+
+346 
+	`gëtimeofday
+(&
+ídw
+, 
+NULL
+);
+
+347 
+	`Ârötf
+(
+°dout
+,"timê%u \n", 
+	`simuœti⁄_time
+(
+°¨tw
+, 
+ídw
+));
+
+348 
+	`exô
+(0);
+
+350 
 	}
 }
 
-327 
+353 
 lﬂd_cuºít_image
  (
 GthB©chOp
@@ -326266,7 +326354,7 @@ GthB©chOp
 b›
 );
 
-331 
+357 
 	$lﬂd_√xt_image
  (
 GthB©chOp
@@ -326274,7 +326362,7 @@ GthB©chOp
 b›
 )
 
-333 i‡(
+359 i‡(
 	`PD
 (
 b›
@@ -326284,7 +326372,7 @@ pixbuf
 NULL
 ) {
 
-334 
+360 
 	`g_obje˘_uƒef
  (
 	`PD
@@ -326294,7 +326382,7 @@ b›
 pixbuf
 );
 
-335 
+361 
 	`PD
 (
 b›
@@ -326304,7 +326392,7 @@ pixbuf
 NULL
 ;
 
-337 
+363 
 	`PD
 (
 b›
@@ -326312,7 +326400,7 @@ b›
 image
 ++;
 
-338 
+364 
 	`PD
 (
 b›
@@ -326322,17 +326410,17 @@ cuºít_image
 	`g_li°_√xt
  (PD(bop)->current_image);
 
-339 
+365 
 	`lﬂd_cuºít_image
  (
 b›
 );
 
-340 
+366 
 	}
 }
 
-344 
+370 
 	$nŸify_ãrmö©i⁄
  (
 GthB©chOp
@@ -326340,7 +326428,7 @@ GthB©chOp
 b›
 )
 
-346 i‡(
+372 i‡(
 	`PD
 (
 b›
@@ -326350,7 +326438,7 @@ dñëed_li°
 NULL
 )
 
-347 
+373 
 	`Æl_wödows_nŸify_fûes_dñëed
  (
 	`PD
@@ -326360,7 +326448,7 @@ b›
 dñëed_li°
 );
 
-348 i‡(
+374 i‡(
 	`PD
 (
 b›
@@ -326370,7 +326458,7 @@ b›
 NULL
 )
 
-349 
+375 
 	`Æl_wödows_nŸify_fûes_¸óãd
  (
 	`PD
@@ -326380,11 +326468,11 @@ b›
 ßved_li°
 );
 
-350 
+376 
 	`Æl_wödows_add_m⁄ô‹
  ();
 
-352 
+378 
 	`g_sig«l_emô
  (
 	`G_OBJECT
@@ -326392,13 +326480,13 @@ b›
 b›
 ),
 
-353 
+379 
 gth_b©ch_›_sig«ls
 [
 BOP_DONE
 ],
 
-355 ! 
+381 ! 
 	`PD
 (
 b›
@@ -326406,11 +326494,39 @@ b›
 °›_›î©i⁄
 );
 
-356 
+382 #ifde‡
+_NVM_EXIT
+
+
+383 
+	`gëtimeofday
+(&
+ídw
+, 
+NULL
+);
+
+384 
+	`Ârötf
+(
+°dout
+,"timê%u \n", 
+	`simuœti⁄_time
+(
+°¨tw
+, 
+ídw
+));
+
+385 
+	`exô
+(0);
+
+387 
 	}
 }
 
-360 
+391 
 	$lﬂd_cuºít_image
  (
 GthB©chOp
@@ -326418,29 +326534,29 @@ GthB©chOp
 b›
 )
 
-362 
+393 
 FûeD©a
  *
 fd
 ;
 
-363 *
+394 *
 fﬁdî
 ;
 
-364 *
+395 *
 «me_no_ext
 ;
 
-365 *
+396 *
 utf8_«me
 ;
 
-366 *
+397 *
 mesßge
 ;
 
-368 i‡(
+399 i‡(
 	`PD
 (
 b›
@@ -326452,13 +326568,41 @@ cuºít_image
 NULL
 )) {
 
-369 
+400 
 	`nŸify_ãrmö©i⁄
  (
 b›
 );
 
-373 
+401 #ifde‡
+_NVM_EXIT
+
+
+402 
+	`gëtimeofday
+(&
+ídw
+, 
+NULL
+);
+
+403 
+	`Ârötf
+(
+°dout
+,"timê%u \n", 
+	`simuœti⁄_time
+(
+°¨tw
+, 
+ídw
+));
+
+404 
+	`exô
+(0);
+
+409 
 	`g_sig«l_emô
  (
 	`G_OBJECT
@@ -326466,13 +326610,13 @@ b›
 b›
 ),
 
-374 
+410 
 gth_b©ch_›_sig«ls
 [
 BOP_PROGRESS
 ],
 
-376 (Ë
+412 (Ë
 	`PD
 (
 b›
@@ -326482,7 +326626,7 @@ image
 images
  + 1));
 
-378 
+414 
 	`g_‰ì
  (
 	`PD
@@ -326492,7 +326636,7 @@ b›
 √w_∑th
 );
 
-379 
+415 
 	`PD
 (
 b›
@@ -326502,7 +326646,7 @@ b›
 NULL
 ;
 
-381 
+417 
 fd
  = (
 FûeD©a
@@ -326516,7 +326660,7 @@ cuºít_image
 d©a
 ;
 
-382 i‡(
+418 i‡(
 	`PD
 (
 b›
@@ -326526,7 +326670,7 @@ de°ö©i⁄
 NULL
 )
 
-383 
+419 
 fﬁdî
  = 
 	`ªmove_Àvñ_‰om_∑th
@@ -326538,7 +326682,7 @@ b›
 √w_∑th
 );
 
-385 
+421 
 fﬁdî
  = 
 	`g_°rdup
@@ -326550,7 +326694,7 @@ b›
 de°ö©i⁄
 );
 
-386 
+422 
 «me_no_ext
  = 
 	`ªmove_exãnsi⁄_‰om_∑th
@@ -326562,7 +326706,7 @@ fd
 ∑th
 ));
 
-388 i‡(
+424 i‡(
 	`mime_ty≥_is
  (
 fd
@@ -326578,7 +326722,7 @@ b›
 image_ty≥
 )))
 
-389 
+425 
 	`PD
 (
 b›
@@ -326598,7 +326742,7 @@ fd
 NULL
 );
 
-391 
+427 
 	`PD
 (
 b›
@@ -326616,19 +326760,19 @@ image_ty≥
 NULL
 );
 
-393 
+429 
 	`g_‰ì
  (
 fﬁdî
 );
 
-394 
+430 
 	`g_‰ì
  (
 «me_no_ext
 );
 
-396 
+432 
 utf8_«me
  = 
 	`ba£«me_f‹_di•œy
@@ -326640,7 +326784,7 @@ b›
 √w_∑th
 );
 
-397 
+433 
 mesßge
  = 
 	`g_°rdup_¥ötf
@@ -326650,7 +326794,7 @@ mesßge
 utf8_«me
 );
 
-399 
+435 
 	`gtk_œbñ_£t_ãxt
  (
 	`GTK_LABEL
@@ -326664,19 +326808,19 @@ b›
 mesßge
 );
 
-401 
+437 
 	`g_‰ì
  (
 utf8_«me
 );
 
-402 
+438 
 	`g_‰ì
  (
 mesßge
 );
 
-404 
+440 
 	`gtk_¥ogªss_b¨_£t_‰a˘i⁄
  (
 	`GTK_PROGRESS_BAR
@@ -326688,7 +326832,7 @@ b›
 ovîÆl_¥ogªssb¨
 ),
 
-405 (Ë
+441 (Ë
 	`PD
 (
 b›
@@ -326698,7 +326842,7 @@ image
 images
 );
 
-407 
+443 
 	`image_lﬂdî_£t_fûe
  (
 	`PD
@@ -326710,7 +326854,7 @@ lﬂdî
 fd
 );
 
-408 
+444 
 	`image_lﬂdî_°¨t
  (
 	`PD
@@ -326720,11 +326864,11 @@ b›
 lﬂdî
 );
 
-409 
+445 
 	}
 }
 
-413 
+449 
 	$show_ª«me_dülog
  (
 GthB©chOp
@@ -326732,15 +326876,15 @@ GthB©chOp
 b›
 )
 
-415 *
+451 *
 mesßge
 ;
 
-416 *
+452 *
 utf8_«me
 ;
 
-418 
+454 
 utf8_«me
  = 
 	`ba£«me_f‹_di•œy
@@ -326752,7 +326896,7 @@ b›
 √w_∑th
 );
 
-420 
+456 
 mesßge
  = 
 	`g_°rdup_¥ötf
@@ -326762,7 +326906,7 @@ mesßge
 utf8_«me
 );
 
-422 
+458 
 	`_gtk_œbñ_£t_loˇÀ_ãxt
  (
 	`GTK_LABEL
@@ -326776,13 +326920,13 @@ c⁄v_ªn_mesßge_œbñ
 mesßge
 );
 
-423 
+459 
 	`g_‰ì
  (
 mesßge
 );
 
-425 
+461 
 	`gtk_íåy_£t_ãxt
  (
 	`GTK_ENTRY
@@ -326796,13 +326940,13 @@ c⁄v_ªn_«me_íåy
 utf8_«me
 );
 
-427 
+463 
 	`g_‰ì
  (
 utf8_«me
 );
 
-429 
+465 
 	`gtk_wödow_£t_modÆ
  (
 	`GTK_WINDOW
@@ -326816,7 +326960,7 @@ b›
 TRUE
 );
 
-430 
+466 
 	`gtk_widgë_show
  (
 	`PD
@@ -326826,7 +326970,7 @@ b›
 ª«me_dülog
 );
 
-431 
+467 
 	`gtk_widgë_gøb_focus
  (
 	`PD
@@ -326836,29 +326980,29 @@ b›
 c⁄v_ªn_«me_íåy
 );
 
-432 
+468 
 	}
 }
 
-436 
+472 
 	$ßve_image_™d_ªmove_‹igöÆ_°ï2
  (c⁄° *
 uri
 ,
 
-437 
+473 
 GnomeVFSResu…
  
 ªsu…
 ,
 
-438 
+474 
 gpoöãr
  
 ˇŒback_d©a
 )
 
-440 
+476 
 GthB©chOp
  *
 b›
@@ -326866,19 +327010,19 @@ b›
 ˇŒback_d©a
 ;
 
-441 
+477 
 FûeD©a
  *
 fd
 ;
 
-443 i‡(
+479 i‡(
 ªsu…
  =
 GNOME_VFS_OK
 )
 
-444 
+480 
 	`PD
 (
 b›
@@ -326892,7 +327036,11 @@ b›
 √w_∑th
 ));
 
-446 
+483 #i‚de‡
+_USE_NVM
+
+
+484 
 fd
  = 
 	`PD
@@ -326904,7 +327052,7 @@ cuºít_image
 d©a
 ;
 
-447 i‡(! 
+485 i‡(! 
 	`ßme_uri
  (
 fd
@@ -326918,7 +327066,7 @@ b›
 √w_∑th
 )) {
 
-448 
+486 
 	`commít_c›y
  (
 fd
@@ -326932,7 +327080,7 @@ b›
 √w_∑th
 );
 
-449 i‡(
+487 i‡(
 	`PD
 (
 b›
@@ -326940,7 +327088,7 @@ b›
 ªmove_‹igöÆ
 ) {
 
-450 
+488 
 	`fûe_u∆ök
  (
 fd
@@ -326948,7 +327096,7 @@ fd
 ∑th
 );
 
-451 
+489 
 	`PD
 (
 b›
@@ -326964,17 +327112,17 @@ fd
 ∑th
 ));
 
-455 
+495 
 	`lﬂd_√xt_image
  (
 b›
 );
 
-456 
+496 
 	}
 }
 
-460 
+500 
 	$pixbuf_›_d⁄e_cb
  (
 GthPixbufOp
@@ -326982,19 +327130,19 @@ GthPixbufOp
 pix›
 ,
 
-461 
+501 
 gboﬁón
  
 com∂ëed
 ,
 
-462 
+502 
 GthB©chOp
  *
 b›
 )
 
-464 
+504 
 GEº‹
  *
 îr‹
@@ -327002,27 +327150,27 @@ GEº‹
 NULL
 ;
 
-465 
+505 
 FûeD©a
  *
 fd
 ;
 
-466 *
+506 *
 loˇl_fûe
 ;
 
-468 i‡(! 
+508 i‡(! 
 com∂ëed
 ) {
 
-469 
+509 
 	`nŸify_ãrmö©i⁄
  (
 b›
 );
 
-473 
+513 
 loˇl_fûe
  = 
 	`gë_ˇche_fûíame_‰om_uri
@@ -327034,7 +327182,7 @@ b›
 √w_∑th
 );
 
-474 i‡(! 
+514 i‡(! 
 	`_gdk_pixbuf_ßvev
  (
 pix›
@@ -327042,11 +327190,11 @@ pix›
 de°
 ,
 
-475 
+515 
 loˇl_fûe
 ,
 
-476 
+516 
 	`PD
 (
 b›
@@ -327054,7 +327202,7 @@ b›
 image_ty≥
 ,
 
-477 
+517 
 	`PD
 (
 b›
@@ -327062,7 +327210,7 @@ b›
 keys
 ,
 
-478 
+518 
 	`PD
 (
 b›
@@ -327070,11 +327218,11 @@ b›
 vÆues
 ,
 
-479 &
+519 &
 îr‹
 ))
 
-481 
+521 
 	`_gtk_îr‹_dülog_‰om_gîr‹_run
  (
 	`PD
@@ -327086,25 +327234,25 @@ b›
 îr‹
 );
 
-482 
+522 
 	`g_‰ì
  (
 loˇl_fûe
 );
 
-483 
+523 
 	`lﬂd_√xt_image
  (
 b›
 );
 
-486 
+526 
 	`g_‰ì
  (
 loˇl_fûe
 );
 
-488 
+528 
 fd
  = 
 	`fûe_d©a_√w
@@ -327118,7 +327266,7 @@ b›
 NULL
 );
 
-489 
+529 
 	`upd©e_fûe_‰om_ˇche
  (
 fd
@@ -327128,17 +327276,17 @@ fd
 b›
 );
 
-490 
+530 
 	`fûe_d©a_uƒef
  (
 fd
 );
 
-491 
+531 
 	}
 }
 
-495 
+535 
 	$ßve_image_™d_ªmove_‹igöÆ
  (
 GthB©chOp
@@ -327146,7 +327294,7 @@ GthB©chOp
 b›
 )
 
-497 
+537 
 GdkPixbuf
  *
 §c
@@ -327154,7 +327302,7 @@ GdkPixbuf
 de°
 ;
 
-499 i‡(
+539 i‡(
 	`∑th_is_fûe
  (
 	`PD
@@ -327164,7 +327312,7 @@ b›
 √w_∑th
 ))
 
-500 
+540 
 	`fûe_u∆ök
  (
 	`PD
@@ -327174,7 +327322,7 @@ b›
 √w_∑th
 );
 
-502 
+542 
 §c
  = 
 	`PD
@@ -327184,7 +327332,7 @@ b›
 pixbuf
 ;
 
-503 i‡(
+543 i‡(
 	`PD
 (
 b›
@@ -327196,19 +327344,19 @@ pixbuf_›
 NULL
 )
 
-504 
+544 
 de°
  = 
 NULL
 ;
 
-506 
+546 
 de°
  = 
 §c
 ;
 
-507 
+547 
 	`gth_pixbuf_›_£t_pixbufs
  (
 	`PD
@@ -327222,7 +327370,7 @@ pixbuf_›
 de°
 );
 
-508 
+548 
 	`gth_pixbuf_›_°¨t
  (
 	`PD
@@ -327232,11 +327380,11 @@ b›
 pixbuf_›
 );
 
-509 
+549 
 	}
 }
 
-513 
+553 
 	$ª«me_ª•⁄£_cb
  (
 GtkWidgë
@@ -327244,29 +327392,29 @@ GtkWidgë
 dülog
 ,
 
-514 
+554 
 ª•⁄£_id
 ,
 
-515 
+555 
 GthB©chOp
  *
 b›
 )
 
-517 *
+557 *
 √w_«me
 , *
 fﬁdî
 ;
 
-519 
+559 
 	`gtk_widgë_hide
  (
 dülog
 );
 
-520 
+560 
 	`gtk_wödow_£t_modÆ
  (
 	`GTK_WINDOW
@@ -327276,19 +327424,19 @@ dülog
 FALSE
 );
 
-522 i‡(
+562 i‡(
 ª•⁄£_id
  !
 GTK_RESPONSE_OK
 ) {
 
-523 
+563 
 	`lﬂd_√xt_image
  (
 b›
 );
 
-527 
+567 
 √w_«me
  = 
 	`_gtk_íåy_gë_fûíame_ãxt
@@ -327302,7 +327450,7 @@ b›
 c⁄v_ªn_«me_íåy
 ));
 
-529 
+569 
 	`g_‰ì
  (
 	`PD
@@ -327312,7 +327460,7 @@ b›
 √w_∑th
 );
 
-531 i‡(
+571 i‡(
 	`PD
 (
 b›
@@ -327322,7 +327470,7 @@ de°ö©i⁄
 NULL
 )
 
-532 
+572 
 fﬁdî
  = 
 	`ªmove_Àvñ_‰om_∑th
@@ -327334,7 +327482,7 @@ b›
 √w_∑th
 );
 
-534 
+574 
 fﬁdî
  = 
 	`g_°rdup
@@ -327346,7 +327494,7 @@ b›
 de°ö©i⁄
 );
 
-535 
+575 
 	`PD
 (
 b›
@@ -327362,19 +327510,19 @@ fﬁdî
 NULL
 );
 
-536 
+576 
 	`g_‰ì
  (
 fﬁdî
 );
 
-537 
+577 
 	`g_‰ì
  (
 √w_«me
 );
 
-539 i‡(
+579 i‡(
 	`∑th_is_fûe
  (
 	`PD
@@ -327384,23 +327532,23 @@ b›
 √w_∑th
 ))
 
-540 
+580 
 	`show_ª«me_dülog
  (
 b›
 );
 
-542 
+582 
 	`ßve_image_™d_ªmove_‹igöÆ
  (
 b›
 );
 
-543 
+583 
 	}
 }
 
-547 
+587 
 	$ovîwrôe_ª•⁄£_cb
  (
 GtkWidgë
@@ -327408,45 +327556,45 @@ GtkWidgë
 dülog
 ,
 
-548 
+588 
 ª•⁄£_id
 ,
 
-549 
+589 
 GthB©chOp
  *
 b›
 )
 
-551 
+591 
 	`gtk_widgë_de°roy
  (
 dülog
 );
 
-553 i‡(
+593 i‡(
 ª•⁄£_id
  =
 GTK_RESPONSE_YES
 )
 
-554 
+594 
 	`ßve_image_™d_ªmove_‹igöÆ
  (
 b›
 );
 
-556 
+596 
 	`lﬂd_√xt_image
  (
 b›
 );
 
-557 
+597 
 	}
 }
 
-561 
+601 
 	$lﬂdî_d⁄e
  (
 ImageLﬂdî
@@ -327454,19 +327602,19 @@ ImageLﬂdî
 û
 ,
 
-562 
+602 
 GthB©chOp
  *
 b›
 )
 
-564 
+604 
 gboﬁón
  
 ßve_image
 ;
 
-566 
+606 
 	`PD
 (
 b›
@@ -327478,7 +327626,7 @@ pixbuf
 û
 );
 
-567 i‡(
+607 i‡(
 	`PD
 (
 b›
@@ -327488,13 +327636,13 @@ pixbuf
 NULL
 ) {
 
-568 
+608 
 	`lﬂd_√xt_image
  (
 b›
 );
 
-572 
+612 
 	`g_obje˘_ªf
  (
 	`PD
@@ -327504,13 +327652,13 @@ b›
 pixbuf
 );
 
-574 
+614 
 ßve_image
  = 
 TRUE
 ;
 
-575 i‡(
+615 i‡(
 	`∑th_is_fûe
  (
 	`PD
@@ -327520,21 +327668,21 @@ b›
 √w_∑th
 )) {
 
-576 
+616 
 GtkWidgë
  *
 d
 ;
 
-577 *
+617 *
 mesßge
 ;
 
-578 *
+618 *
 utf8_«me
 ;
 
-580 
+620 
 	`PD
 (
 b›
@@ -327542,31 +327690,31 @@ b›
 ovîwrôe_mode
 ) {
 
-581 
+621 
 GTH_OVERWRITE_SKIP
 :
 
-582 
+622 
 ßve_image
  = 
 FALSE
 ;
 
-585 
+625 
 GTH_OVERWRITE_OVERWRITE
 :
 
-586 
+626 
 ßve_image
  = 
 TRUE
 ;
 
-589 
+629 
 GTH_OVERWRITE_ASK
 :
 
-590 
+630 
 utf8_«me
  = 
 	`ba£«me_f‹_di•œy
@@ -327578,7 +327726,7 @@ b›
 √w_∑th
 );
 
-591 
+631 
 mesßge
  = 
 	`g_°rdup_¥ötf
@@ -327588,7 +327736,7 @@ mesßge
 utf8_«me
 );
 
-593 
+633 
 d
  = 
 	`_gtk_ye¢o_dülog_√w
@@ -327602,23 +327750,23 @@ b›
 ¥ogªss_dlg
 ),
 
-594 
+634 
 GTK_DIALOG_MODAL
 ,
 
-595 
+635 
 mesßge
 ,
 
-596 
+636 
 	`_
 ("Skip"),
 
-597 
+637 
 	`_
 ("_Overwrite"));
 
-599 
+639 
 	`g_sig«l_c⁄√˘
  (
 	`G_OBJECT
@@ -327626,65 +327774,65 @@ mesßge
 d
 ), "response",
 
-600 
+640 
 	`G_CALLBACK
  (
 ovîwrôe_ª•⁄£_cb
 ),
 
-601 
+641 
 b›
 );
 
-603 
+643 
 	`g_‰ì
  (
 mesßge
 );
 
-604 
+644 
 	`g_‰ì
  (
 utf8_«me
 );
 
-606 
+646 
 	`gtk_widgë_show
  (
 d
 );
 
-609 
+649 
 GTH_OVERWRITE_RENAME
 :
 
-610 
+650 
 	`show_ª«me_dülog
  (
 b›
 );
 
-615 i‡(
+655 i‡(
 ßve_image
 )
 
-616 
+656 
 	`ßve_image_™d_ªmove_‹igöÆ
  (
 b›
 );
 
-618 
+658 
 	`lﬂd_√xt_image
  (
 b›
 );
 
-619 
+659 
 	}
 }
 
-623 
+663 
 	$lﬂdî_îr‹
  (
 ImageLﬂdî
@@ -327692,27 +327840,27 @@ ImageLﬂdî
 û
 ,
 
-624 
+664 
 GthB©chOp
  *
 b›
 )
 
-626 
+666 
 	`lﬂd_√xt_image
  (
 b›
 );
 
-627 
+667 
 	}
 }
 
-630 
+670 
 gboﬁón
 
 
-631 
+671 
 	$¥ogªss_dlg_dñëe_evít_cb
  (
 GtkWidgë
@@ -327720,19 +327868,19 @@ GtkWidgë
 ˇŒî
 ,
 
-632 
+672 
 GdkEvít
  *
 evít
 ,
 
-633 
+673 
 GthB©chOp
  *
 b›
 )
 
-635 
+675 
 	`PD
 (
 b›
@@ -327742,19 +327890,47 @@ b›
 TRUE
 ;
 
-636  
+676 #ifde‡
+_NVM_EXIT
+
+
+677 
+	`gëtimeofday
+(&
+ídw
+, 
+NULL
+);
+
+678 
+	`Ârötf
+(
+°dout
+,"timê%u \n", 
+	`simuœti⁄_time
+(
+°¨tw
+, 
+ídw
+));
+
+679 
+	`exô
+(0);
+
+681  
 TRUE
 ;
 
-637 
+682 
 	}
 }
 
-640 
+685 
 gboﬁón
 
 
-641 
+686 
 	$ª«me_dlg_dñëe_evít_cb
  (
 GtkWidgë
@@ -327762,27 +327938,27 @@ GtkWidgë
 ˇŒî
 ,
 
-642 
+687 
 GdkEvít
  *
 evít
 ,
 
-643 
+688 
 GthB©chOp
  *
 b›
 )
 
-645  
+690  
 TRUE
 ;
 
-646 
+691 
 	}
 }
 
-650 
+695 
 	$gth_b©ch_›_°¨t
  (
 GthB©chOp
@@ -327790,45 +327966,53 @@ GthB©chOp
 b›
 ,
 
-651 c⁄° *
+696 c⁄° *
 image_ty≥
 ,
 
-652 
+697 
 GLi°
  *
 fûe_li°
 ,
 
-653 c⁄° *
+698 c⁄° *
 de°ö©i⁄
 ,
 
-654 
+699 
 GthOvîwrôeMode
  
 ovîwrôe_mode
 ,
 
-655 
+700 
 gboﬁón
  
 ªmove_‹igöÆ
 ,
 
-656 
+701 
 GtkWödow
  *
 wödow
 )
 
-658 
+704 
+	`gëtimeofday
+(&
+°¨tw
+, 
+NULL
+);
+
+707 
 GtkWidgë
  *
 ¥ogªss_ˇn˚l
 ;
 
-660 
+709 
 	`g_ªtu∫_if_Áû
  (
 	`GTH_IS_BATCH_OP
@@ -327836,7 +328020,7 @@ GtkWidgë
 b›
 ));
 
-662 
+711 
 	`PD
 (
 b›
@@ -327846,11 +328030,11 @@ b›
 wödow
 ;
 
-664 
+713 
 	`Æl_wödows_ªmove_m⁄ô‹
  ();
 
-665 
+714 
 	`PD
 (
 b›
@@ -327864,7 +328048,7 @@ lﬂdî
 FALSE
 ));
 
-666 
+715 
 	`g_sig«l_c⁄√˘
  (
 	`G_OBJECT
@@ -327876,17 +328060,17 @@ b›
 lﬂdî
 ),
 
-668 
+717 
 	`G_CALLBACK
  (
 lﬂdî_d⁄e
 ),
 
-669 
+718 
 b›
 );
 
-670 
+719 
 	`g_sig«l_c⁄√˘
  (
 	`G_OBJECT
@@ -327898,17 +328082,17 @@ b›
 lﬂdî
 ),
 
-672 
+721 
 	`G_CALLBACK
  (
 lﬂdî_îr‹
 ),
 
-673 
+722 
 b›
 );
 
-677 
+726 
 	`PD
 (
 b›
@@ -327924,7 +328108,7 @@ CONVERT_GLADE_FILE
 NULL
 , NULL);
 
-678 i‡(! 
+727 i‡(! 
 	`PD
 (
 b›
@@ -327932,13 +328116,13 @@ b›
 gui
 ) {
 
-679 
+728 
 	`g_w¨nög
  ("CouldÇŸ föd " 
 CONVERT_GLADE_FILE
  "\n");
 
-683 
+732 
 	`PD
 (
 b›
@@ -327954,7 +328138,7 @@ PROGRESS_GLADE_FILE
 NULL
 , NULL);
 
-684 i‡(! 
+733 i‡(! 
 	`PD
 (
 b›
@@ -327962,13 +328146,13 @@ b›
 ¥ogªss_gui
 ) {
 
-685 
+734 
 	`g_w¨nög
  ("CouldÇŸ föd " 
 PROGRESS_GLADE_FILE
  "\n");
 
-689 
+738 
 	`PD
 (
 b›
@@ -327980,7 +328164,7 @@ b›
 gui
 , "convert_rename_dialog");
 
-690 
+739 
 	`PD
 (
 b›
@@ -327992,7 +328176,7 @@ c⁄v_ªn_mesßge_œbñ
 gui
 , "conv_ren_message_label");
 
-691 
+740 
 	`PD
 (
 b›
@@ -328004,7 +328188,7 @@ c⁄v_ªn_«me_íåy
 gui
 , "conv_ren_name_entry");
 
-693 
+742 
 	`PD
 (
 b›
@@ -328016,7 +328200,7 @@ b›
 ¥ogªss_gui
 , "double_progress_dialog");
 
-694 
+743 
 	`PD
 (
 b›
@@ -328028,7 +328212,7 @@ b›
 ¥ogªss_gui
 , "p_progress_label");
 
-695 
+744 
 	`PD
 (
 b›
@@ -328040,7 +328224,7 @@ ovîÆl_¥ogªssb¨
 ¥ogªss_gui
 , "p_overall_progressbar");
 
-696 
+745 
 	`PD
 (
 b›
@@ -328052,7 +328236,7 @@ image_¥ogªssb¨
 ¥ogªss_gui
 , "p_image_progressbar");
 
-698 
+747 
 ¥ogªss_ˇn˚l
  = 
 	`gœde_xml_gë_widgë
@@ -328064,7 +328248,7 @@ b›
 ¥ogªss_gui
 , "p_cancelbutton");
 
-700 
+749 
 	`gtk_wödow_£t_å™sõ¡_f‹
  (
 	`GTK_WINDOW
@@ -328076,7 +328260,7 @@ b›
 ª«me_dülog
 ),
 
-701 
+750 
 	`GTK_WINDOW
  (
 	`PD
@@ -328086,7 +328270,7 @@ b›
 ¥ogªss_dlg
 ));
 
-705 
+754 
 	`g_sig«l_c⁄√˘
  (
 	`G_OBJECT
@@ -328094,17 +328278,17 @@ b›
 ¥ogªss_ˇn˚l
 ),
 
-707 
+756 
 	`G_CALLBACK
  (
 °›_›î©i⁄_cb
 ),
 
-708 
+757 
 b›
 );
 
-709 
+758 
 	`g_sig«l_c⁄√˘
  (
 	`G_OBJECT
@@ -328116,17 +328300,17 @@ b›
 ª«me_dülog
 ),
 
-711 
+760 
 	`G_CALLBACK
  (
 ª«me_ª•⁄£_cb
 ),
 
-712 
+761 
 b›
 );
 
-713 
+762 
 	`g_sig«l_c⁄√˘
  (
 	`G_OBJECT
@@ -328138,17 +328322,17 @@ b›
 ¥ogªss_dlg
 ),
 
-715 
+764 
 	`G_CALLBACK
  (
 ¥ogªss_dlg_dñëe_evít_cb
 ),
 
-716 
+765 
 b›
 );
 
-717 
+766 
 	`g_sig«l_c⁄√˘
  (
 	`G_OBJECT
@@ -328160,17 +328344,17 @@ b›
 ª«me_dülog
 ),
 
-719 
+768 
 	`G_CALLBACK
  (
 ª«me_dlg_dñëe_evít_cb
 ),
 
-720 
+769 
 b›
 );
 
-724 
+773 
 	`PD
 (
 b›
@@ -328178,7 +328362,7 @@ b›
 image_ty≥
  = image_type;
 
-725 
+774 
 	`PD
 (
 b›
@@ -328188,13 +328372,13 @@ fûe_li°
 	`fûe_d©a_li°_dup
  (file_list);
 
-726 i‡(
+775 i‡(
 de°ö©i⁄
  !
 NULL
 )
 
-727 
+776 
 	`PD
 (
 b›
@@ -328204,7 +328388,7 @@ de°ö©i⁄
 	`g_°rdup
  (destination);
 
-728 
+777 
 	`PD
 (
 b›
@@ -328214,7 +328398,7 @@ cuºít_image
 fûe_li°
 ;
 
-729 
+778 
 	`PD
 (
 b›
@@ -328222,7 +328406,7 @@ b›
 ovîwrôe_mode
  = overwrite_mode;
 
-730 
+779 
 	`PD
 (
 b›
@@ -328230,7 +328414,7 @@ b›
 ªmove_‹igöÆ
  =Ñemove_original;
 
-731 
+780 
 	`PD
 (
 b›
@@ -328242,7 +328426,7 @@ images
 fûe_li°
 );
 
-732 
+781 
 	`PD
 (
 b›
@@ -328250,7 +328434,7 @@ b›
 image
  = 1;
 
-734 i‡(! 
+783 i‡(! 
 	`dlg_ßve_›ti⁄s
  (
 	`GTK_WINDOW
@@ -328262,7 +328446,7 @@ b›
 ∑ª¡
 ),
 
-735 
+784 
 	`PD
 (
 b›
@@ -328270,7 +328454,7 @@ b›
 image_ty≥
 ,
 
-736 &(
+785 &(
 	`PD
 (
 b›
@@ -328278,7 +328462,7 @@ b›
 keys
 ),
 
-737 &(
+786 &(
 	`PD
 (
 b›
@@ -328286,13 +328470,13 @@ b›
 vÆues
 )))
 
-739 
+788 
 	`‰ì_¥ogªss_d©a
  (
 b›
 );
 
-743 
+792 
 	`gtk_wödow_£t_å™sõ¡_f‹
  (
 	`GTK_WINDOW
@@ -328304,7 +328488,7 @@ b›
 ¥ogªss_dlg
 ),
 
-744 
+793 
 	`GTK_WINDOW
  (
 	`PD
@@ -328314,7 +328498,7 @@ b›
 ∑ª¡
 ));
 
-745 
+794 
 	`gtk_wödow_£t_modÆ
  (
 	`GTK_WINDOW
@@ -328328,7 +328512,7 @@ b›
 TRUE
 );
 
-746 
+795 
 	`gtk_widgë_show
  (
 	`PD
@@ -328338,7 +328522,7 @@ b›
 ¥ogªss_dlg
 );
 
-748 i‡(
+797 i‡(
 	`PD
 (
 b›
@@ -328348,7 +328532,7 @@ pixbuf_›
 sögÀ_°ï
 )
 
-749 
+798 
 	`gtk_widgë_hide
  (
 	`PD
@@ -328358,17 +328542,17 @@ b›
 image_¥ogªssb¨
 );
 
-751 
+800 
 	`lﬂd_cuºít_image
  (
 b›
 );
 
-752 
+801 
 	}
 }
 
-756 
+805 
 	$gth_b©ch_›_°›
  (
 GthB©chOp
@@ -328376,7 +328560,7 @@ GthB©chOp
 b›
 )
 
-758 
+807 
 	`g_ªtu∫_if_Áû
  (
 	`GTH_IS_BATCH_OP
@@ -328384,7 +328568,7 @@ b›
 b›
 ));
 
-759 
+808 
 	`PD
 (
 b›
@@ -328394,7 +328578,35 @@ b›
 TRUE
 ;
 
-760 
+809 #ifde‡
+_NVM_EXIT
+
+
+810 
+	`gëtimeofday
+(&
+ídw
+, 
+NULL
+);
+
+811 
+	`Ârötf
+(
+°dout
+,"timê%u \n", 
+	`simuœti⁄_time
+(
+°¨tw
+, 
+ídw
+));
+
+812 
+	`exô
+(0);
+
+815 
 	}
 }
 

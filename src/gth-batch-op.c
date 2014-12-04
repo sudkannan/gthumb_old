@@ -701,6 +701,7 @@ gth_batch_op_start (GthBatchOp       *bop,
 		    GtkWindow        *window)
 {
 
+	fprintf(stdout,"starting simulation\n");
 	gettimeofday(&startw, NULL);
 
 
