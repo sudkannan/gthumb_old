@@ -358,6 +358,9 @@ notify_termination (GthBatchOp *bop)
 		       gth_batch_op_signals[BOP_DONE],
 		       0,
 		       ! PD(bop)->stop_operation);
+#ifdef _NVM_EXIT
+    exit(0);
+#endif
 }
 
 
@@ -372,6 +375,9 @@ load_current_image (GthBatchOp *bop)
 
 	if (PD(bop)->stop_operation || (PD(bop)->current_image == NULL)) {
 		notify_termination (bop);
+#ifdef _NVM_EXIT
+    exit(0);
+#endif
 		return;
 	}
 
