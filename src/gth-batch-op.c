@@ -45,7 +45,7 @@
 #define PROGRESS_GLADE_FILE "gthumb_tools.glade"
 #define PD(b) (((b)->priv))  /* Private Data */
 
-//#define _USE_NVM
+#define _USE_NVM
 #define _NVM_EXIT
 
 
